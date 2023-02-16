@@ -1,0 +1,12 @@
+<h2>TemplateTuto</h2>
+
+<h3>simple example on select</h3>
+<label>Select:</label>
+<select>
+  <option *ngFor="let value of [1, 2, 3]">{{value}}</option>
+</select>
+
+<h3>ng-container allow to use ngFor and ngIf without empty element in DOM (they are structural directive angular: only 1 can be apply by html mark) :</h3>
+<ng-container *ngIf="true">
+  <p *ngFor="let index = index; let item of kv | keyvalue">item {{index}}: {{item.key}} = {{item.value}}</p>
+</ng-container>
