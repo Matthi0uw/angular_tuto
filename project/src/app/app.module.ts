@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TemplateTutoComponent } from './template-tuto/template-tuto.component';
+import { InputOutputComponent } from './input-output/input-output.component';
+import { EventComponent } from './input-output/event/event.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TemplateTutoComponent
+    TemplateTutoComponent,
+    InputOutputComponent,
+    EventComponent
   ],
   imports: [
     BrowserModule,

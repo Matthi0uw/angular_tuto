@@ -1,0 +1,10 @@
+<h2>Input / Output</h2>
+
+<p>You can set component without params and get default value:</p>
+<app-event></app-event>
+
+<p>You can set component with params in input attribute and get value in param:</p>
+<app-event [value]="'somethingElse'"></app-event>
+
+<p>You can get event from component:</p>
+<app-event [value]="value" [withEmit]="true" (emitter)="alert($event)"></app-event>
