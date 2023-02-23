@@ -10,6 +10,8 @@ import { EventComponent } from './input-output/event/event.component';
 import { RxSubjectComponent } from './rx-subject/rx-subject.component';
 import { ViewEncapsulationComponent } from './view-encapsulation/view-encapsulation.component';
 import { CompAComponent } from './view-encapsulation/comp-a/comp-a.component';
+import { ParamsComponent } from './params/params.component';
+import { ParamsChildrenComponent } from './params/params-children/params-children.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { CompAComponent } from './view-encapsulation/comp-a/comp-a.component';
     ViewEncapsulationComponent,
     CompAComponent,
     CompBComponent,
+    ParamsComponent,
+    ParamsChildrenComponent,
   ],
   imports: [
     BrowserModule,
