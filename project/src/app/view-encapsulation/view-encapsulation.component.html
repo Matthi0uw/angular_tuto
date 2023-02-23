@@ -1,0 +1,15 @@
+<ul>
+  <li><code>.red</code> is global CSS</li>
+  <li><code>.green</code> is component CSS</li>
+  <li><code>.blue</code> is <code>viewEncapsulation: none</code> CSS (override everything) </li>
+</ul>
+
+<div class="red">A</div>
+<div class="green">B</div>
+<div class="blue">C</div>
+
+<button type="button" (click)="click('b')">display compB</button>
+<button type="button" (click)="click('a')">display compA (viewEncapsulation: None)</button>
+
+<app-comp-a *ngIf="displayA"></app-comp-a>
+<app-comp-b *ngIf="displayB"></app-comp-b>
