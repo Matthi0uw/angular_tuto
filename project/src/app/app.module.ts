@@ -12,6 +12,8 @@ import { ViewEncapsulationComponent } from './view-encapsulation/view-encapsulat
 import { CompAComponent } from './view-encapsulation/comp-a/comp-a.component';
 import { ParamsComponent } from './params/params.component';
 import { ParamsChildrenComponent } from './params/params-children/params-children.component';
+import { NgContentComponent } from './ng-content/ng-content.component';
+import { CompCComponent } from './ng-content/comp-c/comp-c.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { ParamsChildrenComponent } from './params/params-children/params-childre
     CompBComponent,
     ParamsComponent,
     ParamsChildrenComponent,
+    NgContentComponent,
+    CompCComponent,
   ],
   imports: [
     BrowserModule,
